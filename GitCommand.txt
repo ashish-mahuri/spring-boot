@@ -1,0 +1,19 @@
+Prepare : GIT interview questions
+
+1. Download GITBASH 
+2. Create GitHub Account
+
+3. Clone Project : 
+	git clone <https://(url from github)>
+4. Some basic command : 
+	git add .
+	git add <filename>
+	git commit -m "Message"
+	git push
+	git status
+	git reset --soft HEAD~1
+	git cherry-pick <commitId> 
+5. Create Branch From GITBASH and Push to repository : 
+	git checkout -b feature/1.0.0
+	git branch(To check if the branch is created or not)
+	git push --set-upstream origin feature/1.0.0
